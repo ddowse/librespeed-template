@@ -1,7 +1,6 @@
 PKG librespeed-php80 nginx-lite 
 
-CMD /usr/local/share/examples/librespeed/example-singleServer-full.html \
-    /usr/local/www/librespeed/index.html 
+CMD /usr/local/share/examples/librespeed/example-singleServer-full.html /usr/local/www/librespeed/index.html 
 
 CP nginx.conf /usr/local/etc/nginx/
 
