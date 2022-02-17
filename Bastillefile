@@ -1,11 +1,11 @@
 PKG librespeed-php80 nginx-lite 
 
-CMD /usr/local/share/examples/librespeed/example-singleServer-full.html /usr/local/www/librespeed/index.html 
+CMD cp /usr/local/share/examples/librespeed/example-singleServer-full.html /usr/local/www/librespeed/index.html 
 
 CP nginx.conf /usr/local/etc/nginx/
 
 SYSRC nginx_enable="YES"
-SYSRC php-fpm_enable="YES"
+SYSRC php_fpm_enable="YES"
 
 SERVICE nginx start
 SERVICE php-fpm start
