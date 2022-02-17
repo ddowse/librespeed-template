@@ -13,3 +13,6 @@ bastille bootstrap https://github.com/ddowse/librespeed-template
 ```
 bastille template TARGET ddowse/librespeed-template
 ```
+
+## Credits 
+Blogpost: [Tubsta](https://www.tubsta.com/2022/02/librespeed-on-freebsd/)
